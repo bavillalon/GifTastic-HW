@@ -1,0 +1,21 @@
+body{
+    background-color: #1a1a1a;
+    color: #dbdbdb;
+    height: 100vh;
+}
+
+button{
+    color:#1a1a1a;
+}
+
+main{
+    height:100vh;
+}
+
+#addButton{
+    background-color: #363636;
+}
+
+.gifDiv{
+    background-color: #363636;
+}
