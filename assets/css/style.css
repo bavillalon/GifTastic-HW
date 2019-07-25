@@ -4,7 +4,11 @@ body{
     height: 100vh;
 }
 
-button{
+button, #addTopic{
+    border-style: none;
+    margin: 0.25em;
+    border-radius: 8px;
+    padding: 0.5em;
     color:#1a1a1a;
 }
 
@@ -18,4 +22,5 @@ main{
 
 .gifDiv{
     background-color: #363636;
+    border-radius: 4px;
 }

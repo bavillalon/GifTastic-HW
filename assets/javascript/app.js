@@ -36,8 +36,8 @@ function queryGiphy(inputTopic){
                 "data-hover":"none"
             });
             gifRating.text(response.data[i].rating.toUpperCase());
-            gifDiv.append([gifRating,gifImg]);
-            gifDiv.attr("class","gifDiv my-4 p-2")
+            gifDiv.append([gifImg,gifRating]);
+            gifDiv.attr("class","gifDiv mb-3 p-2")
             switch(whichCol){
                 case 0:
                     $("#gifCol-1").prepend(gifDiv);
