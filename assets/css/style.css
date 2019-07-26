@@ -10,6 +10,7 @@ button, #addTopic{
     border-radius: 8px;
     padding: 0.5em;
     color:#1a1a1a;
+    background-color: #dbdbdb;
 }
 
 main{
