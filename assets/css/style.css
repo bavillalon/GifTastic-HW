@@ -4,7 +4,16 @@ body{
     height: 100vh;
 }
 
-button, #addTopic{
+button{
+    border-style: none;
+    margin: 0.25em;
+    border-radius: 8px;
+    padding: 0.5em;
+    color:#1a1a1a;
+    background-color: #dbdbdb;
+}
+
+#addTopic{
     border-style: none;
     margin: 0.25em;
     border-radius: 8px;
